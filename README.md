@@ -1,130 +1,214 @@
-# 🚀 90DaysOfDevOps
-### Learn • Build • Practice • Become Job-Ready
+# 90 Days of DevOps
 
-Welcome to **90DaysOfDevOps**, a structured and hands-on DevOps challenge by **TrainWithShubham**.
+A hands-on record of my **DevOps learning journey**, documenting practical tasks, projects, experiments, and revision notes completed as part of the 90DaysOfDevOps challenge by TrainWithShubham.
 
-This repository is designed to help you **build real DevOps skills step by step in 90 days** — not by watching endless videos, but by **doing daily tasks**, building projects, and thinking like a **production-ready DevOps engineer**.
+The focus is on **learning by building, troubleshooting, documenting, and applying DevOps concepts through practical work**.
 
-This is not a theory-heavy course.  
-This is a **discipline + execution challenge**.
+## 🚀 What I've Practiced
 
----
+### 🐧 Linux & Systems
 
-## 🎯 What is #90DaysOfDevOps?
+* Linux fundamentals
+* File and directory management
+* Permissions and ownership
+* Processes and services
+* Package management
+* Disk and storage management
+* System troubleshooting
+* Shell commands and automation
 
-**#90DaysOfDevOps** is a **day-wise DevOps learning challenge** where:
+### 🌐 Networking
 
-- Every day has **one clear task**
-- Every task has a **real-world DevOps outcome**
-- Every learner builds a **public GitHub proof of work**
-- Every concept is reinforced through **hands-on practice**
-- Learning is aligned with **live classes and recordings**
+* Networking fundamentals
+* Ports and protocols
+* DNS
+* HTTP/HTTPS
+* TCP/IP concepts
+* Linux networking commands
+* Application and container networking
 
-By the end of 90 days, you will have:
-- Strong DevOps fundamentals
-- Multiple mini-projects
-- One end-to-end DevOps capstone project
-- A GitHub profile that clearly shows consistency
-- Confidence to handle DevOps interviews and production systems
+### 🔀 Git & GitHub
 
----
+* Git fundamentals
+* Branching and merging
+* Remote repositories
+* Pull requests
+* GitHub workflows
+* Repository management
+* GitHub Actions
 
-## 🧠 Who Is This For?
+### 🐳 Docker
 
-This challenge is ideal for:
+Hands-on work with:
 
-- Students and freshers entering DevOps or Cloud
-- Working professionals switching to DevOps / SRE / Cloud roles
-- Developers who want to understand infrastructure and CI/CD
-- Anyone who believes **consistency beats talent**
+* Dockerfiles
+* Docker images and containers
+* Image optimization
+* `.dockerignore`
+* Multi-stage builds
+* Docker Compose
+* Networks
+* Volumes
+* Healthchecks
+* Multi-container applications
+* Non-root containers
+* Docker Hardened Images
 
-No prior DevOps experience is required.  
-**Commitment is mandatory.**
+### ⚙️ CI/CD
 
----
+Hands-on GitHub Actions work covering:
 
-## 🗂 Repository Structure
+* Workflow triggers
+* Jobs and steps
+* Multi-job workflows
+* Job dependencies
+* Matrix strategies
+* `fail-fast`
+* Secrets and variables
+* GitHub-hosted runners
+* Self-hosted runners
+* Docker image builds
+* Docker Hub publishing
+* Commit SHA image tagging
 
-```
+### ☁️ Cloud & Infrastructure
+
+Practical exposure to:
+
+* AWS
+* EC2
+* VPC
+* IAM
+* S3
+* Lambda
+* ECS
+* ECR
+* CloudWatch
+* EventBridge
+* Infrastructure automation
+
+### 🏗️ Infrastructure as Code
+
+* Terraform fundamentals
+* Terraform configuration
+* Variables and outputs
+* State management
+* Remote state
+* AWS infrastructure provisioning
+* Environment-based infrastructure
+
+### ☸️ Kubernetes
+
+Hands-on learning around:
+
+* Kubernetes fundamentals
+* Pods
+* Deployments
+* Services
+* Configuration
+* Amazon EKS
+
+The focus is on understanding Kubernetes concepts and building practical familiarity rather than claiming extensive production Kubernetes experience.
+
+## 🛠️ Projects & Practical Work
+
+The repository includes hands-on work across multiple DevOps areas, including:
+
+* Containerized full-stack applications
+* Docker Compose environments
+* Multi-stage Docker builds
+* Docker image optimization
+* Frontend, backend, and database containers
+* CI/CD workflows
+* GitHub Actions automation
+* Self-hosted GitHub Actions runners
+* Terraform infrastructure
+* AWS deployments
+* DevOps revision and interview notes
+
+## 📚 Repository Structure
+
+```text
 90DaysOfDevOps/
 │
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── .gitignore
-│
+├── 2023/
+├── 2024/
+├── 2025/
+├── 2026/
 ├── scripts/
-│   └── helper-scripts.sh
+├── .github/
+│   └── workflows/
 │
-├── day-01/
-│   └── README.md
-├── day-02/
-│   └── README.md
-├── ...
-├── day-90/
-│   └── README.md
+├── README.md
+└── LICENSE
 ```
 
----
+The `2026` section contains my current hands-on DevOps work and includes practical exercises, implementation notes, revision material, and project work.
 
-## 📅 How the Challenge Works
+## 🎯 Current Focus
 
-- **One day = one task**
-- Tasks are aligned with **live classes**
-- Live class days focus on **core concepts**
-- Weekdays focus on **practice and reinforcement**
-- Daily commits are encouraged
+My current focus is building stronger practical skills across:
 
-Even **30–60 minutes per day** is enough if done honestly.
-
----
-
-## 🛠 What You Will Learn
-
-- Linux fundamentals and troubleshooting
-- Shell scripting and automation
-- Networking basics for DevOps
-- Git and GitHub workflows
-- Docker and containerization
-- AWS core and advanced services
-- CI/CD using Jenkins, GitHub Actions, GitLab
-- DevSecOps fundamentals
-- Kubernetes, Helm, ArgoCD
-- Terraform and Ansible
-- Observability with Grafana, Prometheus, OpenTelemetry
-- End-to-end DevOps project
-
----
-
-## 📦 How to Participate
-
-1. Fork this repository
-2. Clone your fork
-3. Navigate to the current `day-XX` folder
-4. Complete the task
-5. Commit and push your work
-
----
-
-## 🌍 Learn in Public
-
-Share your progress on LinkedIn:
-
-```
-#90DaysOfDevOps
-#DevOpsKaJosh
-#TrainWithShubham
+```text
+Linux
+  ↓
+Git & GitHub
+  ↓
+Docker & Docker Compose
+  ↓
+CI/CD & GitHub Actions
+  ↓
+AWS
+  ↓
+Terraform
+  ↓
+Kubernetes
+  ↓
+Cloud & DevOps Automation
 ```
 
+I'm particularly focused on understanding how these tools work together to build **repeatable, automated cloud delivery workflows**.
+
+## 📈 Learning Approach
+
+I use this repository as a public record of my progress.
+
+For each topic, I aim to:
+
+**Learn → Build → Troubleshoot → Document → Revise**
+
+The repository includes both implementation work and concise revision notes so that the concepts remain useful beyond the individual challenge tasks.
+
+## 🔗 Related Projects
+
+### GitHub Actions Practice
+
+Hands-on GitHub Actions work covering CI/CD workflows, secrets, matrix strategies, Docker image publishing, and self-hosted runners.
+
+https://github.com/SnigdhaChaudhari611/github-actions-practice
+
+### Docker Projects
+
+Containerization projects covering Docker Compose, multi-stage builds, networking, volumes, image optimization, and container security.
+
+https://github.com/SnigdhaChaudhari611/Docker_Projects
+
+### Imagify
+
+AWS ECS Fargate deployment using Terraform, Docker, ECR, and GitHub Actions.
+
+https://github.com/SnigdhaChaudhari611/Imagify-tf-ecs
+
 ---
 
-## ❤️ Final Note
+## 🙌 Challenge
 
-DevOps is not about tools.  
-It is about **ownership, reliability, and consistency**.
+This repository is part of the **90DaysOfDevOps challenge by TrainWithShubham**.
 
-One day at a time.  
-One commit at a time.
+Challenge repository:
 
-Happy Learning  
-**TrainWithShubham**
+https://github.com/TrainWithShubham/90DaysOfDevOps
+
+---
+
+**DevOps Engineer | AWS | Terraform | Docker | CI/CD | Kubernetes**
